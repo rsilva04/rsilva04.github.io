@@ -10,6 +10,22 @@ body {
   background-color: var(--stripe);
 }
 
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  p.double {border-style: double;}
+  border-style: solid;
+  border-color: red;
+
+  
+}
+
 h1, p {
   text-align: center;
 }
@@ -21,4 +37,10 @@ h1, p {
   border-bottom: 1px solid #dddddd;
   background-color: var(--stripe);
 }
+
+h4 {
+    text-decoration: underline;
+
+}
+
 
